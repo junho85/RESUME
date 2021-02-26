@@ -1,20 +1,20 @@
 = Experience
 
-Project
+== Kakao
 
-== 2020~
+=== 2020~
 My 구독: https://my.kakao.com
 
-== 2019
+=== 2019
 * Kakao Mail: https://mail.kakao.com
 
-== 2018
+=== 2018
 * TODO
 
-== 2017
+=== 2017
 * infra migration
 
-== 2016
+=== 2016
 * Java SMTP Server
 ** Java, Spring framework, SMTP
 * Hawkeye - event publish-subscribe platform
@@ -27,7 +27,7 @@ My 구독: https://my.kakao.com
 * Janus
 ** ...
 
-== 2015
+=== 2015
 * Janus - member register and withdraw job process
 ** java, spring boot, rabbitmq
 * Java SMTP Server
@@ -35,7 +35,7 @@ My 구독: https://my.kakao.com
 
 (2015.10 Corporation name changed to Kakao)
 
-== 2014.06~07
+=== 2014.06~07
 * EMS (Email Marketing System) - Bulk mail sending service
 ** Java, Spring framework, MySQL, Redis
 ** jQuery, Bootstrap
@@ -43,17 +43,17 @@ My 구독: https://my.kakao.com
 
 (2014.10 Corporation combined with Kakao. Corporation name changed to DaumKakao)
 
-== 2013.01~02
+=== 2013.01~02
 * Daum Smart Work
 ** Renewal "Daum Domain Mail Service"​ to "Daum Smart Work"
 ** server side: java, gmap (key-value memory cache server like redis), santa (database middleware)
 
-== 2012.02
+=== 2012.02
 * daumin e-library system open
 ** client side leading
 ** client side: javascript, jquery
 
-Mail Server Improvements
+.Mail Server Improvements
 * server installation
 ** mail user home server (apache, cgi services)
 ** mail receiver server (sendmail, hermes, java)
@@ -73,7 +73,7 @@ Mail Server Improvements
 ** lost mail history, domain mail service tool, log search tools (pop/imap), mail to issue tracker tool and etc
 ** script language: perl, python
 
-charge
+.charge
 * mail receiver server (SMTP, LMTP)
 * domain mail service
 * tools (lost mail history)
