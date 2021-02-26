@@ -1,0 +1,79 @@
+= Experience
+
+Project
+
+== 2020~
+My 구독: https://my.kakao.com
+
+== 2019
+* Kakao Mail: https://mail.kakao.com
+
+== 2018
+* TODO
+
+== 2017
+* infra migration
+
+== 2016
+* Java SMTP Server
+** Java, Spring framework, SMTP
+* Hawkeye - event publish-subscribe platform
+** collect email transfer logs and tools
+** logstash, kafka, nodejs, hbase
+* EMS
+** enhancement. privacy, security
+* Premium Mail
+** enhancement. security
+* Janus
+** ...
+
+== 2015
+* Janus - member register and withdraw job process
+** java, spring boot, rabbitmq
+* Java SMTP Server
+** Java, Spring framework, SMTP
+
+(2015.10 Corporation name changed to Kakao)
+
+== 2014.06~07
+* EMS (Email Marketing System) - Bulk mail sending service
+** Java, Spring framework, MySQL, Redis
+** jQuery, Bootstrap
+** DKIM
+
+(2014.10 Corporation combined with Kakao. Corporation name changed to DaumKakao)
+
+== 2013.01~02
+* Daum Smart Work
+** Renewal "Daum Domain Mail Service"​ to "Daum Smart Work"
+** server side: java, gmap (key-value memory cache server like redis), santa (database middleware)
+
+== 2012.02
+* daumin e-library system open
+** client side leading
+** client side: javascript, jquery
+
+Mail Server Improvements
+* server installation
+** mail user home server (apache, cgi services)
+** mail receiver server (sendmail, hermes, java)
+** mail sender server (sendmail)
+** key-value memory cache server (redis, gmap)
+* server optimization
+** change server sets dns RR type to load balance type (mail receiver server)
+** change physical servers to virtual servers (mail receiver server)
+** migration (version up)
+* made server management tools
+** server handling tools (service stop/start tools)
+** server monitoring tools (tomcat status, disk full, memory status)
+** server script language: perl, python
+** client script language: javascript, jquery
+** etc: bootstrap
+* made tools for customer service
+** lost mail history, domain mail service tool, log search tools (pop/imap), mail to issue tracker tool and etc
+** script language: perl, python
+
+charge
+* mail receiver server (SMTP, LMTP)
+* domain mail service
+* tools (lost mail history)
