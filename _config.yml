@@ -9,19 +9,19 @@ version: 2
 name: 김준호
 title: Java 백엔드 엔지니어
 email: junho85@gmail.com
-website: junho85.github.io
+website: https://junho85.github.io
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 # twitter_username: junho85
 github_username:  junho85
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
+stackoverflow_username: "junho85"
+# dribbble_username: junho85
 # facebook_username: junho85
 # flickr_username: jekyll
-# instagram_username: jameswgrant
+# instagram_username: junho85gram
 linkedin_username: junho85
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -53,38 +53,121 @@ about_content: | # this will include new lines to allow paragraphs
   주 사용 기술은 <mark>Java</mark>와 <mark>Linux</mark>입니다.
 
 content:
-  - title: Projects # Title for the section
+  - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+      - layout: left
+        title: Back-end
+#        link: github.com/sproogen
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+#        additional_links:
+#          - title:  sproogen/modern-resume-theme
+#            icon: fab fa-github
+#            url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#        quote: >
+#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          * 주요: Java, C, Perl, MySQL, Linux, Kafka, Kubernetes
+          * 기타: Oracle, RabbitMQ
+      - layout: left
+        title: Front-end
+        description: | # this will include new lines to allow paragraphs
+          * Javascript, jQuery, Bootstrap, React
+      - layout: left
+        title: Others
+        description: | # this will include new lines to allow paragraphs
+          * Git & Github
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: 카카오
-        link: kakao.com
-        # link_text: boringcompany.com
+        link: https://www.kakaocorp.com
+#        link_text: https://www.kakaocorp.com
         sub_title: 백엔드 개발자
         caption: January 2012 - Present
-        quote: >
-          하루 1억건이 넘는 메일 처리
+#        quote: >
+#          하루 1억건이 넘는 메일 수발신 처리
         description: | # this will include new lines to allow paragraphs
-            메일 서비스, My 구독 서비스 개발/운영
+          * 2020~현재 My 구독 서비스 개발/운영
+          * 다음메일 서비스. 하루 1억건이 넘는 메일 수발신 처리
+          * 2019 카카오메일 오픈 - C
+          * ? 로그 수집 시스템 - 수발신 로그 수집 및 조회 툴 - Logstash, Hbase, NodsJS
+          * 2015
+          - 회원시스템과 메일시스템 의존성 제거 프로젝트 - C
+          - 회원 가입/탈퇴 처리 시스템 - SpringBoot, RabbitMQ
+          - 그룹메일
+          - 버전업. junit 3 -> 4, ant -> gradle, java 5 -> 8
+          - 모니터링 강화
+          * 2014 EMS 대량 메일 발송 시스템, 통합사내메일 프로젝트
+          * 2013 스마트워크트, 메일-CRMS 연동 프로젝트
+          * 2012 사내 도서관 시스템 - Spring?, MySQL?, Barcode
+          * 유지보수/개선
+          - 프리미엄메일
+          - SMTP 서버
+          * LMTP 서버
+          * 인프라 마이그레이션
+          * Java 버전 업 대응, OS 버전업 대응
+          * 운영툴 개발
+          * Java, C, Perl, MySQL, Linux
+      - layout: left
+        title: Qualcomm CDMA Technologies Korea
+        link: https://www.qualcomm.com
+        # link_text: boringcompany.com
+        sub_title: Assistant Software Engineer
+        caption: July 2011 ~ Dec 2011
+#        quote: >
+#          멀티미디어팀 지원
+        description: | # this will include new lines to allow paragraphs
+          * 멀티미디어팀 지원
+          * C, JTAG, Android
+      - layout: left
+        title: 그래픽스 연구실
+        link: http://bh.knu.ac.kr/~kujinkim/
+        # link_text: boringcompany.com
+        sub_title:
+        caption: Aug 2010 ~ June 2011
+#        quote: >
+#          연구 보조
+        description: | # this will include new lines to allow paragraphs
+          * 분자모형 연구 지원
+          * OpenGL, Python
+      - layout: left
+        title: Trek Technology
+        link: https://www.trek2000.com.sg/
+        # link_text: boringcompany.com
+        sub_title: Assistant Software Engineer
+        caption: Mar 2010 ~ Aug 2010
+        description: | # this will include new lines to allow paragraphs
+          * Flucard (Wifi SD Card), iBall (Wifi Camera) 개발 참여
+          * Linux, JTAG, CGI, C, lighttpd
+      - layout: left
+        title: (주)위니텍
+        link: http://www.winitech.com
+        # link_text: boringcompany.com
+        sub_title: 개발자
+        caption: July 2011 ~ Dec 2011
+#        quote: >
+#          멀티미디어팀 지원
+        description: | # this will include new lines to allow paragraphs
+          * 경북대학교 산학연구지원 시스템 개발
+          * 위니텍 프로젝트 관리 시스템 개발
+          * Oracle, Java, JBoss, Javascript, MiPlatform
+      - layout: left
+        title: 영천호국원
+#        link: http://www.winitech.com
+        # link_text: boringcompany.com
+        sub_title: 개발자
+        caption: Mar 2005 ~ Aug 2005
+#        quote: >
+#          홈페이지 개발
+        description: | # this will include new lines to allow paragraphs
+          * 영천호국원 홈페이지 제작
+          * PHP, MySQL, Flash
 
   - title: 학력 # Title for the section
     layout: list # Type of content section (list/text)
@@ -93,24 +176,26 @@ content:
         title: 경북대학교
         caption: 2004 - 2012
         sub_title: IT대학 컴퓨터 학부 학사
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+#        quote: >
+#          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          * 2011 LED 악보제작&연주기 - 최우수상, KNUSNS, 키넥트 로봇팔 제어
+          * 2010 경혈학 교육 어플 - 은상, 확 땡기는 영어 - 은상, 밸런싱레고로봇
+          * 2009 장보기를 도와줘 - 은상
+          * 2005 즐거운합주, 동아리홈페이지
+          * 2004 사진이야기 - 시크스퀘어 2004 특별상
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+#  - title: A Little More About Me
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#      - Rock climbing
+#      - Gaming
+#      - Knitting
+#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+#
+#      Look at this cool image
+#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
