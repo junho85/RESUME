@@ -17,7 +17,7 @@ darkmode: never
 # Social links
 # twitter_username: junho85
 github_username:  junho85
-stackoverflow_username: "junho85"
+stackoverflow_username: "964890"
 # dribbble_username: junho85
 # facebook_username: junho85
 # flickr_username: jekyll
@@ -93,26 +93,30 @@ content:
 #        quote: >
 #          하루 1억건이 넘는 메일 수발신 처리
         description: | # this will include new lines to allow paragraphs
-          * 2020~현재 My 구독 서비스 개발/운영
+          * 2020~현재
+            * My 구독 서비스 개발/운영 - SpringBoot, Kafka, MySQL
           * 다음메일 서비스. 하루 1억건이 넘는 메일 수발신 처리
-          * 2019 카카오메일 오픈 - C
-          * ? 로그 수집 시스템 - 수발신 로그 수집 및 조회 툴 - Logstash, Hbase, NodsJS
+          * 2019
+            * 카카오메일 오픈 - C로 된 레거시 메일에 cmake적용, 외부메일발송서버 sendmail을 java서버로 변경
+            * DB 이관. Oracle -> MySQL
+          * 2016 로그 수집 시스템 - 수발신 로그 수집 및 조회 툴 - Logstash, Hbase, NodsJS
+            * 메일-CRMS 연동 프로젝트 java로 재개발
           * 2015
-          - 회원시스템과 메일시스템 의존성 제거 프로젝트 - C
-          - 회원 가입/탈퇴 처리 시스템 - SpringBoot, RabbitMQ
-          - 그룹메일
-          - 버전업. junit 3 -> 4, ant -> gradle, java 5 -> 8
-          - 모니터링 강화
+            * 회원시스템과 메일시스템 의존성 제거 프로젝트 - C
+            * 회원 가입/탈퇴 처리 시스템 - SpringBoot, RabbitMQ
+            * 그룹메일
+            * 버전업. junit 3 -> 4, ant -> gradle, java 5 -> 8
+            * 모니터링 강화
           * 2014 EMS 대량 메일 발송 시스템, 통합사내메일 프로젝트
-          * 2013 스마트워크트, 메일-CRMS 연동 프로젝트
+          * 2013 스마트워크트, 메일-CRMS 연동 프로젝트 python으로 재개발
           * 2012 사내 도서관 시스템 - Spring?, MySQL?, Barcode
           * 유지보수/개선
-          - 프리미엄메일
-          - SMTP 서버
-          * LMTP 서버
-          * 인프라 마이그레이션
-          * Java 버전 업 대응, OS 버전업 대응
-          * 운영툴 개발
+            * 프리미엄메일
+            * SMTP 서버
+            * LMTP 서버
+            * 인프라 마이그레이션
+            * Java 버전 업 대응, OS 버전업 대응
+            * 운영툴 개발
           * Java, C, Perl, MySQL, Linux
       - layout: left
         title: Qualcomm CDMA Technologies Korea
