@@ -221,7 +221,8 @@ content:
         title: 스마트워크
         caption: 2013
         description: |
-          * 스마트워크 프로젝트
+          * 기존 도메인메일 서비스를 스마트워크 서비스로 개편
+          * Java
 
       - layout: left
         title: 파란메일 이관 프로젝트
@@ -240,7 +241,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        sub_title: 해카톤
+        title: 해카톤
         description: | # this will include new lines to allow paragraphs
           * 2019 카카오 사내 해커톤 24K - 24K GOLD 썸네일 간편 제작 툴
           * 2017 Social Innovation Camp 36 - Pick Art You - 완전한 마무리상, 소셜이노베이션상 2관왕
@@ -251,8 +252,8 @@ content:
         title: 모임&발표
         description: | # this will include new lines to allow paragraphs
           * 정원사들 - 일일커밋 모임. 시즌 2~6 참여
-            * 모임 출석부 개발 - (시즌6 출석부)[http://garden5.junho85.pe.kr/]
-            * 2019 (GDG DevFest Pangyo)[https://festa.io/events/606] [정원사들 출석체크 만들기 발표](https://www.slideshare.net/junho85/dev-fest-pangyo-2019)
+            * 모임 출석부 개발 - [시즌6 출석부](http://garden5.junho85.pe.kr/)
+            * 2019 [GDG DevFest Pangyo](https://festa.io/events/606) [정원사들 출석체크 만들기 발표](https://www.slideshare.net/junho85/dev-fest-pangyo-2019)
 
 
 
