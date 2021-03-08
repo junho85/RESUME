@@ -15,13 +15,13 @@ website: https://junho85.github.io
 darkmode: never
 
 # Social links
-# twitter_username: junho85
+twitter_username: junho85
 github_username:  junho85
 stackoverflow_username: "964890"
 # dribbble_username: junho85
-# facebook_username: junho85
+facebook_username: junho85
 # flickr_username: jekyll
-# instagram_username: junho85gram
+instagram_username: junho85gram
 linkedin_username: junho85
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -45,12 +45,16 @@ additional_links:
 google_analytics: "UA-8585222-14"
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. 김준호입니다. 서버개발자 입니다. <mark>하루 수억건</mark>의 메일을 주고 받는 다음메일 서비스의 개발/운영 경험이 있습니다. 현재는 My 구독 서비스 신규 개발에 참여 하여 서비스 론칭 후 서비스를 발전시켜 나가고 있습니다.
+  <mark>하루 수억 건</mark>의 메일을 주고받는 <mark>MAU 2천만 이상</mark>의 다음메일 서비스의 서버사이드 개발/운영한 경험이 있습니다.
+  <mark>20년 이상</mark>의 오래된 서비스이자 수천만 유저의 대규모 트래픽 서비스를 **8년 이상** 운영하면서 다양한 인프라, 개발, 모니터링 환경을 경험하였고 다양한 장애 상황을 대처한 경험이 있습니다.
 
-  주 사용 기술은 <mark>Java</mark>와 <mark>Linux</mark>입니다.
+  현재는 My 구독 서비스 신규 개발에 참여하여 서비스를 론칭하고 서비스를 발전시켜 나가고 있습니다.
+
+  일을 하며 쌓은 경험들은 문서화하고 동료들과 공유합니다.
+  반복되는 작업은 스크립트로 자동화하고 운영툴을 개발하여 운영비용을 줄입니다.
 
 content:
   - title: Skills # Title for the section
@@ -58,20 +62,9 @@ content:
     content:
       - layout: left
         title: Back-end
-#        link: github.com/sproogen
-        # link_text: Project Website
-#        additional_links:
-#          - title:  sproogen/modern-resume-theme
-#            icon: fab fa-github
-#            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#        quote: >
-#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          * 주요: Java, C, Perl, MySQL, Linux, Kafka, Kubernetes
-          * 기타: Oracle, RabbitMQ
+          * 주요: Java, Linux, MySQL, Kafka
+          * 기타: Kotlin, PostgreSQL, Oracle, RabbitMQ, C, Perl
       - layout: left
         title: Front-end
         description: | # this will include new lines to allow paragraphs
@@ -79,7 +72,8 @@ content:
       - layout: left
         title: Others
         description: | # this will include new lines to allow paragraphs
-          * Git & Github
+          * Git & Github, Kubernetes
+          * Ansible, Jenkins
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -93,52 +87,40 @@ content:
 #        quote: >
 #          하루 1억건이 넘는 메일 수발신 처리
         description: | # this will include new lines to allow paragraphs
-          * 2020~현재
-            * My 구독 서비스 개발/운영 - SpringBoot, Kafka, MySQL
-          * 다음메일 서비스. 하루 1억건이 넘는 메일 수발신 처리
-          * 2019
-            * 카카오메일 오픈 - C로 된 레거시 메일에 cmake적용, 외부메일발송서버 sendmail을 java서버로 변경
-            * DB 이관. Oracle -> MySQL
-          * 2016 로그 수집 시스템 - 수발신 로그 수집 및 조회 툴 - Logstash, Hbase, NodsJS
-            * 메일-CRMS 연동 프로젝트 java로 재개발
-          * 2015
-            * 회원시스템과 메일시스템 의존성 제거 프로젝트 - C
-            * 회원 가입/탈퇴 처리 시스템 - SpringBoot, RabbitMQ
-            * 그룹메일
-            * 버전업. junit 3 -> 4, ant -> gradle, java 5 -> 8
-            * 모니터링 강화
-          * 2014 EMS 대량 메일 발송 시스템, 통합사내메일 프로젝트
-          * 2013 스마트워크트, 메일-CRMS 연동 프로젝트 python으로 재개발
-          * 2012 사내 도서관 시스템 - Spring?, MySQL?, Barcode
+          * My 구독 개발파트 - 2020.04 ~ 현재
+            * My 구독 서비스 개발/운영 - Java, SpringBoot, Kafka, MySQL, Redis, Kubernetes 등
+            * MSA 환경에서의 Web API 작성, Kafka를 이용한 Pub/Sub 구조의 데이터 처리
+          * 메일개발파트 2012.01 ~ 2020.04
+            * 하루 수억건의 메일을 주고 받는 MAU 2천만 이상의 다음메일 서비스의 서버사이드 개발/운영
+            * Java, C, Perl, MySQL, Linux의 기술을 주로 사용 하였으며 상황에 따라 Kotlin, Oracle, MongoDB, ProgresSQL, RabbitMQ, JavaScript 등의 기술도 사용
+            * 이메일 서비스 도메인 지식 - SMTP, LMTP 등의 메일 프로토콜, MX, SPF, DKIM 등의 DNS 관련 지식
+
+            * 프리미엄메일 (유료 메일 서비스) 운영/유지보수
+            * MSA 구조로 변경, OS 버전업 대응, 서버 이전, DB 마이그레이션 등
+            * 레거시 개선 - 시스템의 불필요한 코드 400만 라인 이상 제거, 구조 개선, Java 버전업, JUnit 버전업, OS 버전업, 32bit -> 64bit, Ant -> Gradle, httpd 버전업 1.3 -> 2.4, tomcat 서버 버전업 등
+            * 인프라 작업 - IDC 이전 작업, PM -> VM 이전 작업 등
+            * 운영툴 개발 - 메일 수/발신 이력, 로그 조회, 사용자 활동 이력 확인 등
+            * 보안 개선 - SMTP TLS 1.2 지원
+            * DB 이관 - Oracle -> MySQL
+
           * 유지보수/개선
-            * 프리미엄메일
-            * SMTP 서버
-            * LMTP 서버
-            * 인프라 마이그레이션
-            * Java 버전 업 대응, OS 버전업 대응
+            * 인프라 마이그레이션, IDC 이전 작업
             * 운영툴 개발
-          * Java, C, Perl, MySQL, Linux
       - layout: left
         title: Qualcomm CDMA Technologies Korea
         link: https://www.qualcomm.com
-        # link_text: boringcompany.com
         sub_title: Assistant Software Engineer
         caption: July 2011 ~ Dec 2011
-#        quote: >
-#          멀티미디어팀 지원
         description: | # this will include new lines to allow paragraphs
-          * 멀티미디어팀 지원
+          * 멀티미디어팀 지원.
           * C, JTAG, Android
       - layout: left
         title: 그래픽스 연구실
         link: http://bh.knu.ac.kr/~kujinkim/
-        # link_text: boringcompany.com
         sub_title:
         caption: Aug 2010 ~ June 2011
-#        quote: >
-#          연구 보조
         description: | # this will include new lines to allow paragraphs
-          * 분자모형 연구 지원
+          * 분자모형 연구 지원. 분자모형 데이터를 읽어서 3D 모델 렌더링 툴 개발
           * OpenGL, Python
       - layout: left
         title: Trek Technology
@@ -147,59 +129,132 @@ content:
         sub_title: Assistant Software Engineer
         caption: Mar 2010 ~ Aug 2010
         description: | # this will include new lines to allow paragraphs
-          * Flucard (Wifi SD Card), iBall (Wifi Camera) 개발 참여
+          * Flucard (Wifi SD Card) 개발 참여 - 임베디드 OS에서 구동하는 웹 사진 뷰어 및 관리 도구 작성
+          * iBall (Wifi Camera) 개발 참여 - 디바이스 드라이버, 하드웨어 디버깅 작업
           * Linux, JTAG, CGI, C, lighttpd
       - layout: left
         title: (주)위니텍
         link: http://www.winitech.com
-        # link_text: boringcompany.com
         sub_title: 개발자
         caption: July 2011 ~ Dec 2011
-#        quote: >
-#          멀티미디어팀 지원
         description: | # this will include new lines to allow paragraphs
           * 경북대학교 산학연구지원 시스템 개발
           * 위니텍 프로젝트 관리 시스템 개발
           * Oracle, Java, JBoss, Javascript, MiPlatform
       - layout: left
-        title: 영천호국원
-#        link: http://www.winitech.com
-        # link_text: boringcompany.com
+        title: 국립영천호국원
+        link: https://www.mpva.go.kr/ycnc/index.do
         sub_title: 개발자
         caption: Mar 2005 ~ Aug 2005
-#        quote: >
-#          홈페이지 개발
         description: | # this will include new lines to allow paragraphs
           * 영천호국원 홈페이지 제작
           * PHP, MySQL, Flash
 
-  - title: 학력 # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: 경북대학교
         caption: 2004 - 2012
         sub_title: IT대학 컴퓨터 학부 학사
-#        quote: >
-#          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          * 2011 LED 악보제작&연주기 - 최우수상, KNUSNS, 키넥트 로봇팔 제어
-          * 2010 경혈학 교육 어플 - 은상, 확 땡기는 영어 - 은상, 밸런싱레고로봇
-          * 2009 장보기를 도와줘 - 은상
-          * 2005 즐거운합주, 동아리홈페이지
-          * 2004 사진이야기 - 시크스퀘어 2004 특별상
+          * 하늘소 - 소프트웨어 개발 동아리 프로젝트 - 2005년 동아리 회장
+            * 2011 LED 악보제작&연주기 - 최우수상
+            * 2010 경혈학 교육 어플 (안드로이드앱) - 은상, 확 땡기는 영어 (안드로이드앱) - 은상, 밸런싱레고로봇
+            * 2009 장보기를 도와줘 (안드로이드앱) - 은상
+            * 2005 즐거운합주 (리듬게임), 동아리 홈페이지
+            * 2004 사진이야기 (사진 편집 프로그램) - 특별상
+          * 프로젝트
+            * 2011 KNUSNS (SNS), 키넥트 로봇팔 제어 프로젝트, AR 시간표
 
-#  - title: A Little More About Me
-#    layout: text
-#    content: | # this will include new lines to allow paragraphs
-#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-#      - Rock climbing
-#      - Gaming
-#      - Knitting
-#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-#
-#      Look at this cool image
-#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: 카카오메일
+        caption: 2018 - 2020
+        description: |
+          * 외부 메일 발송 서버를 Sendmail -> Java 서버로 변경. TLS 메일 발송 기능 적용
+          * 사용자 설정 서버, 메일 수신 이벤트 전달 서버, 메일 정리 배치, 외부메일 발송 서버, 로그 수집, 통계툴, 운영툴 등 세팅. 가입/이벤트 추첨 작업
+          * 카카오메일 프로젝트 - C로 된 레거시 메일에 cmake적용, 외부메일발송서버 sendmail을 java서버로 변경
+          * C, Java, MySQL
+
+      - layout: left
+        title: 메일 발송 로그 수집 시스템과 조회툴
+        caption: 2016
+        description: |
+          * 기존에 메일의 발송 결과를 확인하기가 불편한 것을 개선함
+          * 발송로그를 Logstash를 이용해서 파싱해서 Kafka 서버로 전달.
+          * Kafka로 전달된 로그는 Storm을 거쳐 HBase에 저장.
+          * HBase에 저장된 로그를 조회하는 API와 API를 이용해서 발송로그를 확인하는 운영툴 개발 - NodeJS
+
+      - layout: left
+        title: 회원시스템과 메일시스템 의존성 제거
+        caption: 2015
+        description: |
+          * 회원시스템과 메일시스템 의존성 제거 프로젝트 - C
+          * 회원 가입/탈퇴 처리 시스템 - SpringBoot, RabbitMQ
+          * 그룹메일
+          * 모니터링 강화
+
+      - layout: left
+        title: EMS - 대량 메일 발송 시스템
+        caption: 2014
+        description: |
+          * 대량 메일 발송 시스템 재개발
+
+      - layout: left
+        title: 통합사내메일
+        caption: 2014
+        description: |
+          * 회사 합병 후 양사 메일계정 통합
+
+      - layout: left
+        title: 메일-CS시스템 연동 프로젝트
+        caption: 2013, 2016
+        description: |
+          * 메일-CS시스템 연동 프로젝트
+            * 2016 Python -> Java로 재개발
+            * 2013 Perl -> Python으로 재개발
+
+      - layout: left
+        title: 스마트워크
+        caption: 2013
+        description: |
+          * 스마트워크 프로젝트
+
+      - layout: left
+        title: 파란메일 이관 프로젝트
+        caption: 2012
+        description: |
+          * 파란메일 종료 후 다음메일로 통합
+
+      - layout: left
+        title: 설레는 도서관
+        caption: 2012
+        description: |
+          * 사내 도서관 시스템 구축
+          * Spring
+
+  - title: 외부활동
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        sub_title: 해카톤
+        description: | # this will include new lines to allow paragraphs
+          * 2019 카카오 사내 해커톤 24K - 24K GOLD 썸네일 간편 제작 툴
+          * 2017 Social Innovation Camp 36 - Pick Art You - 완전한 마무리상, 소셜이노베이션상 2관왕
+          * 2014 Social Innovation Camp 36 - 썸맵. [인터뷰](http://changeon.org/%EC%9D%B8%ED%84%B0%EB%B7%B0-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0-%EB%A7%A4%ED%95%91-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC-%EB%A7%8C%EB%93%A0-%EC%82%AC%EB%9E%8C%EB%93%A4-%EA%B9%80%EC%A4%80%ED%98%B8/)
+          * 2013 Social Innovation Camp Seoul - [Finger Town](https://www.slideshare.net/sicampseoul/finger-town-via-sicamp-seoul) - 1st prize
+          * 2012 Social Innovation Camp 36 - [특수교육대상아동을 위한 앱](http://2012.sicamp36.org/bbs/board.php?bo_table=idea&wr_id=127&sfl=wr_11&stx=Y) - [소셜임팩트상](http://2012.sicamp36.org/bbs/board.php?bo_table=news&wr_id=559)
+      - layout: left
+        title: 모임&발표
+        description: | # this will include new lines to allow paragraphs
+          * 정원사들 - 일일커밋 모임. 시즌 2~6 참여
+            * 모임 출석부 개발 - (시즌6 출석부)[http://garden5.junho85.pe.kr/]
+            * 2019 (GDG DevFest Pangyo)[https://festa.io/events/606] [정원사들 출석체크 만들기 발표](https://www.slideshare.net/junho85/dev-fest-pangyo-2019)
+
+
 
 # Footer
 footer_show_references: true
