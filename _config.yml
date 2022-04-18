@@ -15,13 +15,13 @@ website: https://junho85.github.io
 darkmode: never
 
 # Social links
-twitter_username: junho85
+#twitter_username: junho85
 github_username:  junho85
 stackoverflow_username: "964890"
 # dribbble_username: junho85
 facebook_username: junho85
 # flickr_username: jekyll
-instagram_username: junho85gram
+#instagram_username: junho85gram
 linkedin_username: junho85
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -91,10 +91,24 @@ content:
             * My 구독 서비스 개발/운영 - Java, SpringBoot, Kafka, MySQL, Redis, Kubernetes 등
             * MSA 환경에서의 Web API 작성, Kafka를 이용한 Pub/Sub 구조의 데이터 처리
           * 메일개발파트 2012.01 ~ 2020.04
-            * 하루 수억건의 메일을 주고 받는 MAU 2천만 이상의 다음메일 서비스의 서버사이드 개발/운영
+            * MAU 2천만 이상, 하루 수억건의 메일 수발신 트래픽을 처리하는 다음메일 서비스 개발/운영
+            * 수백대의 서버 배포, 모니터링, 로그수집 경험
+            * 20년 넘는 서비스 운영을 통한 다양한 환경과 기술 경험
+              * 언어: Java5 ~ Java11, C, Perl, Python, Kotlin, Groovy, Scala
+              * 프레임워크: Spring 1 ~ SpringBoot 2, Mojolicious
+              * API: Web API, REST API, CGI, Webservice
+              * DB: MySQL, Oracle, PostgreSQL
+              * 빌드도구: Gradle, Maven, Make, Ant 
+              * 배포: rsync, webistrano, ansible
+              * 로그수집: logstash, filebeat, fluentd, syslog
+              * 모니터링: scouter, sentry, kibana
+              * 메시지: Kafka, RabbitMQ
+              * 사용자 알림: 카카오톡, 이메일, SMS
+              * DNS: MX, SPF, DKIM
+              * 이관: Oracle to MySQL, 32Bit to 64Bit OS, IDC 이관, PM to VM, Java5 to Java8 등
+              * 장애: HW/SW 장애, 네트워크 장애, 데이터 손실, 작업 실수, 저장소 장애 등
             * Java, C, Perl, MySQL, Linux의 기술을 주로 사용 하였으며 상황에 따라 Kotlin, Oracle, MongoDB, ProgresSQL, RabbitMQ, JavaScript 등의 기술도 사용
             * 이메일 서비스 도메인 지식 - SMTP, LMTP 등의 메일 프로토콜, MX, SPF, DKIM 등의 DNS 관련 지식
-
             * 프리미엄메일 (유료 메일 서비스) 운영/유지보수
             * MSA 구조로 변경, OS 버전업 대응, 서버 이전, DB 마이그레이션 등
             * 레거시 개선 - 시스템의 불필요한 코드 400만 라인 이상 제거, 구조 개선, Java 버전업, JUnit 버전업, OS 버전업, 32bit -> 64bit, Ant -> Gradle, httpd 버전업 1.3 -> 2.4, tomcat 서버 버전업 등
@@ -102,7 +116,6 @@ content:
             * 운영툴 개발 - 메일 수/발신 이력, 로그 조회, 사용자 활동 이력 확인 등
             * 보안 개선 - SMTP TLS 1.2 지원
             * DB 이관 - Oracle -> MySQL
-
           * 유지보수/개선
             * 인프라 마이그레이션, IDC 이전 작업
             * 운영툴 개발
@@ -119,16 +132,15 @@ content:
         link: http://bh.knu.ac.kr/~kujinkim/
         sub_title:
         caption: Aug 2010 ~ June 2011
-        description: | # this will include new lines to allow paragraphs
+        description: |
           * 분자모형 연구 지원. 분자모형 데이터를 읽어서 3D 모델 렌더링 툴 개발
           * OpenGL, Python
       - layout: left
         title: Trek Technology
-        link: https://www.trek2000.com.sg/
-        # link_text: boringcompany.com
+        link: https://www.trek2000.com.sg
         sub_title: Assistant Software Engineer
         caption: Mar 2010 ~ Aug 2010
-        description: | # this will include new lines to allow paragraphs
+        description: |
           * Flucard (Wifi SD Card) 개발 참여 - 임베디드 OS에서 구동하는 웹 사진 뷰어 및 관리 도구 작성
           * iBall (Wifi Camera) 개발 참여 - 디바이스 드라이버, 하드웨어 디버깅 작업
           * Linux, JTAG, CGI, C, lighttpd
@@ -136,8 +148,8 @@ content:
         title: (주)위니텍
         link: http://www.winitech.com
         sub_title: 개발자
-        caption: July 2011 ~ Dec 2011
-        description: | # this will include new lines to allow paragraphs
+        caption: May 2006 ~ May 2009
+        description: |
           * 경북대학교 산학연구지원 시스템 개발
           * 위니텍 프로젝트 관리 시스템 개발
           * Oracle, Java, JBoss, Javascript, MiPlatform
@@ -149,23 +161,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           * 영천호국원 홈페이지 제작
           * PHP, MySQL, Flash
-
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: 경북대학교
-        caption: 2004 - 2012
-        sub_title: IT대학 컴퓨터 학부 학사
-        description: | # this will include new lines to allow paragraphs
-          * 하늘소 - 소프트웨어 개발 동아리 프로젝트 - 2005년 동아리 회장
-            * 2011 LED 악보제작&연주기 - 최우수상
-            * 2010 경혈학 교육 어플 (안드로이드앱) - 은상, 확 땡기는 영어 (안드로이드앱) - 은상, 밸런싱레고로봇
-            * 2009 장보기를 도와줘 (안드로이드앱) - 은상
-            * 2005 즐거운합주 (리듬게임), 동아리 홈페이지
-            * 2004 사진이야기 (사진 편집 프로그램) - 특별상
-          * 프로젝트
-            * 2011 KNUSNS (SNS), 키넥트 로봇팔 제어 프로젝트, AR 시간표
 
   - title: Projects
     layout: list
@@ -243,18 +238,36 @@ content:
       - layout: left
         title: 해카톤
         description: | # this will include new lines to allow paragraphs
-          * 2019 카카오 사내 해커톤 24K - 24K GOLD 썸네일 간편 제작 툴
-          * 2017 Social Innovation Camp 36 - Pick Art You - 완전한 마무리상, 소셜이노베이션상 2관왕
-          * 2014 Social Innovation Camp 36 - 썸맵. [인터뷰](http://changeon.org/%EC%9D%B8%ED%84%B0%EB%B7%B0-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0-%EB%A7%A4%ED%95%91-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC-%EB%A7%8C%EB%93%A0-%EC%82%AC%EB%9E%8C%EB%93%A4-%EA%B9%80%EC%A4%80%ED%98%B8/)
+          * 2019 카카오 사내 해커톤 24K - 24K GOLD 썸네일 간편 제작 툴 (Javascript)
+          * 2017 Social Innovation Camp 36 - Pick Art You - 완전한 마무리상, 소셜이노베이션상 2관왕 (PHP, CodeIgniter, MySQL)
+          * 2014 Social Innovation Camp 36 - 썸맵 - 완전한 마무리상
+            * [인터뷰](http://changeon.org/%EC%9D%B8%ED%84%B0%EB%B7%B0-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0-%EB%A7%A4%ED%95%91-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC-%EB%A7%8C%EB%93%A0-%EC%82%AC%EB%9E%8C%EB%93%A4-%EA%B9%80%EC%A4%80%ED%98%B8/)
+            * [기사](http://www.makehope.org/36%ec%8b%9c%ea%b0%84%ec%9d%84-%ed%95%98%ec%96%97%ea%b2%8c-%ed%83%9c%ec%9a%b4-%ea%b7%b8%eb%93%a4%ec%9d%98-%eb%82%ae%ea%b3%bc-%eb%b0%a4/)
           * 2013 Social Innovation Camp Seoul - [Finger Town](https://www.slideshare.net/sicampseoul/finger-town-via-sicamp-seoul) - 1st prize
           * 2012 Social Innovation Camp 36 - [특수교육대상아동을 위한 앱](http://2012.sicamp36.org/bbs/board.php?bo_table=idea&wr_id=127&sfl=wr_11&stx=Y) - [소셜임팩트상](http://2012.sicamp36.org/bbs/board.php?bo_table=news&wr_id=559)
       - layout: left
         title: 모임&발표
         description: | # this will include new lines to allow paragraphs
-          * 정원사들 - 일일커밋 모임. 시즌 2~6 참여
-            * 모임 출석부 개발 - [시즌6 출석부](http://garden5.junho85.pe.kr/)
+          * 2019~2022 정원사들 - 일일커밋 모임. 시즌 2~7 참여
+            * 모임 출석부 개발 - [시즌7 출석부](http://garden7.junho85.pe.kr/)
             * 2019 [GDG DevFest Pangyo](https://festa.io/events/606) [정원사들 출석체크 만들기 발표](https://www.slideshare.net/junho85/dev-fest-pangyo-2019)
 
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: 경북대학교
+        caption: 2004 - 2012
+        sub_title: IT대학 컴퓨터 학부 학사
+        description: |
+          * 소프트웨어 개발 동아리 (하늘소) - 2005년 동아리 회장
+            * 2011 LED 악보제작&연주기 - 최우수상 (C)
+            * 2010 경혈학 교육 어플 - 은상 (Android) / 확 땡기는 영어 - 은상 (Android, QRCode) / 밸런싱레고로봇 (Android, Bluetooth)
+            * 2009 장보기를 도와줘 - 은상 (Android, QRCode)
+            * 2005 즐거운합주 리듬게임 (WinAPI, DirectX, MIDI), 동아리 홈페이지 (PHP, MySQL)
+            * 2004 사진이야기 사진 편집 프로그램 - 특별상 (MFC)
+          * 프로젝트
+            * 2011 KNUSNS (PHP, MySQL, JavaScript), 키넥트 로봇팔 제어 프로젝트 (MFC, Kinect), AR 시간표 (Android)
 
 
 # Footer
