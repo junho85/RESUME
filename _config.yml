@@ -17,7 +17,7 @@ darkmode: never
 # Social links
 #twitter_username: junho85
 github_username:  junho85
-stackoverflow_username: "964890"
+#stackoverflow_username: "964890"
 # dribbble_username: junho85
 facebook_username: junho85
 # flickr_username: jekyll
@@ -124,9 +124,9 @@ content:
         link: https://www.qualcomm.com
         sub_title: Assistant Software Engineer
         caption: July 2011 ~ Dec 2011
-        description: | # this will include new lines to allow paragraphs
-          * 멀티미디어팀 지원.
-          * C, JTAG, Android
+        description: |
+          * 멀티미디어팀 지원. 빌드 도우미 툴 개발.
+          * C, JTAG, Android, Python
       - layout: left
         title: 그래픽스 연구실
         link: http://bh.knu.ac.kr/~kujinkim/
