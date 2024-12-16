@@ -246,6 +246,7 @@ content:
       - layout: left
         title: 해카톤
         description: | # this will include new lines to allow paragraphs
+          * 2022 카카오 사내 해커톤 24K - 웹 화면 공유 툴 (Node, WebRTC)
           * 2019 카카오 사내 해커톤 24K - 24K GOLD 썸네일 간편 제작 툴 (Javascript)
           * 2017 Social Innovation Camp 36 - Pick Art You - 완전한 마무리상, 소셜이노베이션상 2관왕 (PHP, CodeIgniter, MySQL)
           * 2014 Social Innovation Camp 36 - 썸맵 - 완전한 마무리상
