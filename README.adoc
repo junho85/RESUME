@@ -3,6 +3,12 @@
 https://github.com/sproogen/modern-resume-theme 기반으로 작성
 demo: https://sproogen.github.io/modern-resume-theme/
 
+
+== Jekyll 설치
+https://jekyllrb.com/docs/installation/macos/
+
+== Jekyll 실행
+
 ----
 $ bundle install
 $ bundle exec jekyll serve
