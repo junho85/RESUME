@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
   <mark>20년 이상</mark>의 오래된 서비스이자 수천만 유저의 대규모 트래픽 서비스를 **8년 이상** 운영하면서 다양한 인프라, 개발, 모니터링 환경을 경험하였고 다양한 장애 상황을 대처한 경험이 있습니다.
 
   My 구독 서비스 신규 개발에 참여하여 서비스를 론칭하였고, 티스토리, 오픈링크, 오픈채팅 등의 서비스를 개발에 참여하였습니다.
-  현재는 AI Native Company TF에서 GraphRAG를 이용한 지식베이스 구축에 참여하고 있습니다.
+  AI Native Company TF에서 GraphRAG를 이용한 지식베이스 구축에 참여하였고, 현재는 Kanvas TF에서 AI 서비스 개발에 참여하고 있습니다.
 
   일을 하며 쌓은 경험들은 문서화하고 동료들과 공유합니다.
   반복되는 작업은 스크립트로 자동화하고 운영툴을 개발하여 운영비용을 줄입니다.
@@ -88,10 +88,18 @@ content:
 #        quote: >
 #          하루 1억건이 넘는 메일 수발신 처리
         description: | # this will include new lines to allow paragraphs
-          * AI Native Company TF - 2024.07 ~ 현재
+          * Kanvas TF - 2026.05 ~ 현재
+            * AI 서비스 개발
+          * AI TOP 100 Builder TF - 2026.02 ~ 2026.04
+            * 2026 AITOP100 Campus 및 AITOP100 Challenge 프로젝트 참여
+          * AI네이티브전략 - 2025.07 ~ 2026.01
+            * 사내 AI 검색 시스템, AI Buddy 등 개발
+            * 2025 AITOP100 및 AITOP100 Challenge 프로젝트 참여
+            * AI임팩트 TF, AI클라우드 TF 겸직 (2025.09 ~ 2026.01)
+          * AI Native Company TF - 2024.07 ~ 2025.06 (2024.07 ~ 2025.02 겸직, 2025.03 부서이동)
             * GraphRAG를 이용한 지식베이스 구축
-          * 오픈채팅 개발파트 - 2024.05 ~ 현재
-          * 오픈링크 개발파트 - 2023.08 ~ 2024.04
+          * 오픈채팅 개발파트 - 2024.04 ~ 2025.02
+          * 오픈링크 개발파트 - 2023.08 ~ 2024.03
             * 개인화 대화방 추천, 푸시 서버 개발
           * 티스토리 개발파트 - 2022.06 ~ 2023.08
             * 화이트 블로그 등
@@ -173,6 +181,20 @@ content:
   - title: Projects
     layout: list
     content:
+      - layout: left
+        title: AITOP100 - AI 활용 능력 대회 플랫폼
+        caption: 2025 - 2026
+        description: |
+          * 2025 AI TOP 100 — AI 활용 능력 대회 플랫폼 개발/운영 참여
+          * AITOP100 Challenge — 과제 제출/LLM 자동 채점 사이트 개발
+            * Kafka 큐 기반 제출/채점 분리 비동기 채점 파이프라인, 워커 풀 백프레셔(세마포어), at-least-once 멱등 재채점
+            * 가상 스레드 기반 멀티 페르소나 LLM 채점 및 점수 집계, 프롬프트 인젝션 가드레일
+            * 부정행위 방지 — 문제당 1회 제출 제약, 중복 제출 무효화
+          * 2026 AITOP100 Campus — 대학(원)생·고등학생 대상 대회 개발/운영
+            * Challenge 사이트에 예선/본선 문제 오픈, LLM 채점 운영 (채점 프롬프트 이슈 협업 해결)
+            * 신청자 3,002명 (전년 700명 대비 4.3배), 전국 179개 대학 + 해외 대학 18개교 + 고등학교 참여 (고등학생 5.6배 증가)
+          * Java, Kotlin, Kafka, MySQL, Kubernetes
+
       - layout: left
         title: 카카오메일
         caption: 2018 - 2020
