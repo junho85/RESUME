@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 김준호
-title: Java 백엔드 엔지니어
+title: 백엔드 엔지니어 · AI 애플리케이션
 email: junho85@gmail.com
 website: https://junho85.github.io
 
@@ -62,10 +62,16 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: AI / LLM
+        description: | # this will include new lines to allow paragraphs
+          * LLM 애플리케이션 개발 - RAG(GraphRAG), LLM 연동/모델 라우팅
+          * LLM 자동 채점 파이프라인, 프롬프트 인젝션 가드레일
+      - layout: left
         title: Back-end
         description: | # this will include new lines to allow paragraphs
           * 주요: Java, Kotlin, Python, Linux, MySQL, Kafka
           * 기타: PostgreSQL, C, Perl, Oracle, PHP, ETC
+          * 프레임워크: Spring, SpringBoot, FastAPI
       - layout: left
         title: Front-end
         description: | # this will include new lines to allow paragraphs
@@ -73,8 +79,8 @@ content:
       - layout: left
         title: Others
         description: | # this will include new lines to allow paragraphs
-          * Git & Github, Kubernetes
-          * Ansible, Jenkins
+          * Git & Github, Kubernetes, Docker
+          * Ansible, Jenkins, ArgoCD
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
