@@ -1,0 +1,46 @@
+{%- comment -%}
+Local override of sproogen/modern-resume-theme's default layout.
+
+Adds bilingual support: `t` resolves to the translation source for this page.
+Korean pages use `site` directly, so _config.yml stays the single source of
+truth for Korean and nothing breaks if _data/en.yml is missing.
+{%- endcomment -%}
+{%- if page.lang == 'en' -%}
+  {%- assign t = site.data.en -%}
+{%- else -%}
+  {%- assign t = site -%}
+{%- endif -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'ko' }}">
+
+{%- include head.html -%}
+
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
+
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+
+      {%- if jekyll.environment == 'production' and site.gtm -%}
+        {%- include gtm_body.html -%}
+      {%- endif -%}
+
+      {%- include about.html -%}
+
+      {% for section in t.content %}
+        <div class="container {{ section.layout }}-container">
+          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
+          {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+        </div>
+      {% endfor %}
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+  {% if site.darkmode == false %}
+    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+  {% endif %}
+</body>
+
+</html>

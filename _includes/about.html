@@ -1,0 +1,18 @@
+{%- comment -%}
+Local override: about title/content come from `t` (see _layouts/default.html).
+The profile image is language-neutral and stays in site config.
+{%- endcomment -%}
+<div class="container intro-container">
+  <h3 id="{{ t.about_title | slugify | default: 'about-me' }}">{{ t.about_title | default:
+  "About Me" }}</h3>
+  <div class="row clearfix">
+    {%- if site.about_profile_image -%}
+      <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+        <span class="profile-img" style="background-image: url({{ site.about_profile_image | relative_url }})"></span>
+      </div>
+    {%- endif -%}
+    <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
+      {{ t.about_content | strip | markdownify }}
+    </div>
+  </div>
+</div>

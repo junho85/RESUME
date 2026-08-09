@@ -1,0 +1,40 @@
+{%- comment -%}
+Language switcher. A click records the choice so the auto-redirect in head.html
+never overrides a deliberate selection on a later visit.
+{%- endcomment -%}
+<style>
+  .lang-switch {
+    max-width: 830px;
+    margin: 0 auto;
+    padding: 14px 15px 0;
+    text-align: right;
+    font-size: 14px;
+    line-height: 1;
+  }
+  .lang-switch a {
+    color: #999;
+    text-decoration: none;
+    padding: 2px 4px;
+  }
+  .lang-switch a:hover { color: #444; text-decoration: underline; }
+  .lang-switch a[aria-current="true"] { color: #444; font-weight: 600; }
+  .lang-switch span { color: #ccc; padding: 0 2px; }
+  @media print { .lang-switch { display: none; } }
+</style>
+<nav class="lang-switch no-print" aria-label="Language">
+  <a href="{{ '/' | relative_url }}" data-lang="ko"
+     {% if page.lang != 'en' %}aria-current="true"{% endif %}>한국어</a>
+  <span aria-hidden="true">|</span>
+  <a href="{{ '/en/' | relative_url }}" data-lang="en"
+     {% if page.lang == 'en' %}aria-current="true"{% endif %}>English</a>
+</nav>
+<script>
+  (function () {
+    var links = document.querySelectorAll('.lang-switch a[data-lang]');
+    for (var i = 0; i < links.length; i++) {
+      links[i].addEventListener('click', function () {
+        try { localStorage.setItem('resume-lang', this.getAttribute('data-lang')); } catch (e) {}
+      });
+    }
+  })();
+</script>

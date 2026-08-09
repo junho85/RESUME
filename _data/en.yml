@@ -1,0 +1,267 @@
+# English content mirror.
+# Korean content lives in _config.yml (the source of truth for the default page).
+# Only translatable fields belong here — social links, email, favicon, and the
+# profile image are language-neutral and stay in _config.yml.
+
+name: June Kim
+title: Backend Engineer · AI Applications
+
+email_title: Email
+website_title: Web
+references_title: References on request
+
+about_title: About Me
+about_content: | # this will include new lines to allow paragraphs
+  I have server-side development and operations experience on <mark>Daum Mail</mark>, a service with <mark>over 20 million MAU</mark> handling <mark>hundreds of millions of emails</mark> per day.
+  Running a <mark>20-year-old</mark> service at that scale for **more than 8 years** exposed me to a wide range of infrastructure, development and monitoring environments, and to handling many kinds of production incidents.
+
+  I helped build and launch the My Subscription service from scratch, and contributed to Tistory, OpenLink and OpenChat.
+  On the AI Native Company TF I worked on building a GraphRAG-based knowledge base, and I am currently developing AI services on the Kanvas TF.
+
+  I document what I learn and share it with my colleagues.
+  I automate repetitive work with scripts and build internal tools to reduce operational cost.
+
+content:
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        title: AI / LLM
+        description: |
+          * LLM application development - RAG (GraphRAG), LLM integration & model routing
+          * Automated LLM grading pipelines, prompt injection guardrails
+      - layout: left
+        title: Back-end
+        description: |
+          * Primary: Java, Kotlin, Python, Linux, MySQL, Kafka
+          * Others: PostgreSQL, C, Perl, Oracle, PHP, etc.
+          * Frameworks: Spring, SpringBoot, FastAPI
+      - layout: left
+        title: Front-end
+        description: |
+          * Javascript, jQuery, Bootstrap, React
+      - layout: left
+        title: Others
+        description: |
+          * Git & Github, Kubernetes, Docker
+          * Ansible, Jenkins, ArgoCD
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Kakao
+        link: https://www.kakaocorp.com
+        sub_title: Backend Engineer
+        caption: January 2012 - Present
+        description: |
+          * Kanvas TF - 2026.05 ~ Present
+            * AI service development
+          * AI TOP 100 Builder TF - 2026.02 ~ 2026.04
+            * Worked on the 2026 AITOP100 Campus and AITOP100 Challenge projects
+          * AI Native Strategy - 2025.07 ~ 2026.01
+            * Built an internal AI search system and AI Buddy
+            * Worked on the 2025 AITOP100 and AITOP100 Challenge projects
+          * AI Native Company TF - 2024.07 ~ 2025.06
+            * Built a knowledge base using GraphRAG
+          * OpenChat Development Part - 2024.04 ~ 2024.06
+          * OpenLink Development Part - 2023.08 ~ 2024.03
+            * Personalized chat room recommendations, push notification server
+          * Tistory Development Part - 2022.06 ~ 2023.08
+            * White Blog and others
+          * My Subscription Development Part - 2020.04 ~ 2022.06
+            * Developed and operated the My Subscription service - Java, SpringBoot, Kafka, MySQL, Redis, Kubernetes
+            * Built Web APIs in an MSA environment, Pub/Sub data processing with Kafka
+          * Mail Development Part - 2012.01 ~ 2020.04
+            * Developed and operated Daum Mail, handling hundreds of millions of daily send/receive transactions for over 20 million MAU
+            * Deployment, monitoring and log collection across hundreds of servers
+            * Broad technical exposure from operating a service more than 20 years old
+              * Languages: Java 5 ~ Java 11, C, Perl, Python, Kotlin, Groovy, Scala
+              * Frameworks: Spring 1 ~ SpringBoot 2, Mojolicious
+              * APIs: Web API, REST API, CGI, Webservice
+              * Databases: MySQL, Oracle, PostgreSQL
+              * Build tools: Gradle, Maven, Make, Ant
+              * Deployment: rsync, webistrano, ansible
+              * Log collection: logstash, filebeat, fluentd, syslog
+              * Monitoring: scouter, sentry, kibana
+              * Messaging: Kafka, RabbitMQ
+              * User notifications: KakaoTalk, email, SMS
+              * DNS: MX, SPF, DKIM
+              * Migrations: Oracle to MySQL, 32bit to 64bit OS, IDC relocation, physical to virtual machines, Java 5 to Java 8
+              * Incidents: hardware/software failures, network outages, data loss, operator error, storage failures
+            * Mainly used Java, C, Perl, MySQL and Linux, along with Kotlin, Oracle, MongoDB, PostgreSQL, RabbitMQ and JavaScript as needed
+            * Email domain knowledge - mail protocols such as SMTP and LMTP, DNS records such as MX, SPF and DKIM
+            * Operated and maintained Premium Mail (paid email service)
+            * Migration to an MSA structure, OS upgrades, server relocation, database migration
+            * Legacy improvements - removed over 4 million lines of unnecessary code, restructuring, Java upgrades, JUnit upgrades, OS upgrades, 32bit to 64bit, Ant to Gradle, httpd 1.3 to 2.4, Tomcat upgrades
+            * Infrastructure work - IDC relocation, physical to virtual machine migration
+            * Internal tooling - mail send/receive history, log search, user activity lookup
+            * Security improvements - SMTP TLS 1.2 support
+            * Database migration - Oracle to MySQL
+          * Maintenance & improvements
+            * Infrastructure migration, IDC relocation
+            * Internal tool development
+      - layout: left
+        title: Qualcomm CDMA Technologies Korea
+        link: https://www.qualcomm.com
+        sub_title: Assistant Software Engineer
+        caption: July 2011 ~ Dec 2011
+        description: |
+          * Supported the multimedia team. Developed build helper tools.
+          * C, JTAG, Android, Python
+      - layout: left
+        title: Graphics Lab
+        link: http://bh.knu.ac.kr/~kujinkim/
+        sub_title:
+        caption: Aug 2010 ~ June 2011
+        description: |
+          * Supported molecular modeling research. Built a tool that reads molecular data and renders 3D models.
+          * OpenGL, Python
+      - layout: left
+        title: Trek Technology
+        link: https://www.trek2000.com.sg
+        sub_title: Assistant Software Engineer
+        caption: Mar 2010 ~ Aug 2010
+        description: |
+          * Flucard (Wifi SD Card) - built a web photo viewer and management tool running on an embedded OS
+          * iBall (Wifi Camera) - device driver work and hardware debugging
+          * Linux, JTAG, CGI, C, lighttpd
+      - layout: left
+        title: Winitech
+        link: http://www.winitech.com
+        sub_title: Software Engineer
+        caption: May 2006 ~ May 2009
+        description: |
+          * Built the industry-academic research support system for Kyungpook National University
+          * Built Winitech's project management system
+          * Oracle, Java, JBoss, Javascript, MiPlatform
+      - layout: left
+        title: Yeongcheon National Cemetery
+        link: https://www.mpva.go.kr/ycnc/index.do
+        sub_title: Software Engineer
+        caption: Mar 2005 ~ Aug 2005
+        description: |
+          * Built the Yeongcheon National Cemetery website
+          * PHP, MySQL, Flash
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: AITOP100 - AI Proficiency Competition Platform
+        caption: 2025 - 2026
+        description: |
+          * 2025 AI TOP 100 — contributed to the development and operation of the competition platform
+          * AITOP100 Challenge — built the submission and automated LLM grading site
+            * Kafka-based asynchronous grading pipeline separating submission from grading, worker pool backpressure via semaphores, at-least-once idempotent re-grading
+            * Multi-persona LLM grading on virtual threads with score aggregation, prompt injection guardrails
+            * Anti-cheating measures — one submission per problem, invalidation of duplicate submissions
+          * 2026 AITOP100 Campus — built and operated the competition for university and high school students
+            * Opened preliminary and final rounds on the Challenge site, ran LLM grading (resolved grading prompt issues collaboratively)
+            * 3,002 applicants (4.3x the previous year's 700), 179 universities nationwide plus 18 overseas universities and high schools (5.6x growth in high school participants)
+          * Java, Kotlin, Kafka, MySQL, Kubernetes
+
+      - layout: left
+        title: Kakao Mail
+        caption: 2018 - 2020
+        description: |
+          * Replaced the outbound mail server from Sendmail with a Java server, adding TLS mail delivery
+          * Set up the user settings server, mail receive event delivery server, mail cleanup batch, outbound mail server, log collection, statistics and operational tools. Handled signup and event draw features
+          * Kakao Mail project - applied cmake to the legacy C mail codebase, replaced the sendmail-based outbound server with a Java server
+          * C, Java, MySQL
+
+      - layout: left
+        title: Mail Delivery Log Collection System and Search Tool
+        caption: 2016
+        description: |
+          * Addressed how difficult it was to check mail delivery results
+          * Parsed delivery logs with Logstash and forwarded them to Kafka
+          * Logs flowed through Storm into HBase
+          * Built an API to query logs from HBase and an operational tool on top of it - NodeJS
+
+      - layout: left
+        title: Decoupling the Member System from the Mail System
+        caption: 2015
+        description: |
+          * Removed the dependency between the member system and the mail system - C
+          * Signup and withdrawal processing system - SpringBoot, RabbitMQ
+          * Group mail
+          * Strengthened monitoring
+
+      - layout: left
+        title: EMS - Bulk Mail Delivery System
+        caption: 2014
+        description: |
+          * Rebuilt the bulk mail delivery system
+
+      - layout: left
+        title: Unified Corporate Mail
+        caption: 2014
+        description: |
+          * Merged mail accounts from both companies after the merger
+
+      - layout: left
+        title: Mail - CS System Integration
+        caption: 2013, 2016
+        description: |
+          * Mail to customer service system integration
+            * 2016 rewritten from Python to Java
+            * 2013 rewritten from Perl to Python
+
+      - layout: left
+        title: Smart Work
+        caption: 2013
+        description: |
+          * Revamped the existing domain mail service into the Smart Work service
+          * Java
+
+      - layout: left
+        title: Paran Mail Migration
+        caption: 2012
+        description: |
+          * Migrated users into Daum Mail after Paran Mail shut down
+
+      - layout: left
+        title: Seolleneun Library
+        caption: 2012
+        description: |
+          * Built the in-house library system
+          * Spring
+
+  - title: External Activities
+    layout: list
+    content:
+      - layout: left
+        title: Hackathons
+        description: |
+          * 2022 Kakao internal hackathon 24K - web screen sharing tool (Node, WebRTC)
+          * 2019 Kakao internal hackathon 24K - 24K GOLD thumbnail creation tool (Javascript)
+          * 2017 Social Innovation Camp 36 - Pick Art You - won both the Completion Award and the Social Innovation Award (PHP, CodeIgniter, MySQL)
+          * 2014 Social Innovation Camp 36 - ThumMap - Completion Award
+            * [Interview](http://changeon.org/%EC%9D%B8%ED%84%B0%EB%B7%B0-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0-%EB%A7%A4%ED%95%91-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC-%EB%A7%8C%EB%93%A0-%EC%82%AC%EB%9E%8C%EB%93%A4-%EA%B9%80%EC%A4%80%ED%98%B8/)
+            * [Article](http://www.makehope.org/36%ec%8b%9c%ea%b0%84%ec%9d%84-%ed%95%98%ec%96%97%ea%b2%8c-%ed%83%9c%ec%9a%b4-%ea%b7%b8%eb%93%a4%ec%9d%98-%eb%82%ae%ea%b3%bc-%eb%b0%a4/)
+          * 2013 Social Innovation Camp Seoul - [Finger Town](https://www.slideshare.net/sicampseoul/finger-town-via-sicamp-seoul) - 1st prize
+          * 2012 Social Innovation Camp 36 - [app for children in special education](http://2012.sicamp36.org/bbs/board.php?bo_table=idea&wr_id=127&sfl=wr_11&stx=Y) - [Social Impact Award](http://2012.sicamp36.org/bbs/board.php?bo_table=news&wr_id=559)
+      - layout: left
+        title: Communities & Talks
+        description: |
+          * 2019~2022 Gardeners - a daily commit community. Participated in seasons 2~7
+            * Built the attendance board - [season 7 board](http://garden7.junho85.pe.kr/)
+            * 2019 [GDG DevFest Pangyo](https://festa.io/events/606) - [talk on building the Gardeners attendance checker](https://www.slideshare.net/junho85/dev-fest-pangyo-2019)
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Kyungpook National University
+        caption: 2004 - 2012
+        sub_title: B.S. in Computer Science, College of IT Engineering
+        description: |
+          * Software development club (Haneulso) - club president in 2005
+            * 2011 LED sheet music composer & player - Grand Prize (C)
+            * 2010 Acupuncture point learning app - Silver Prize (Android) / English vocabulary app - Silver Prize (Android, QRCode) / Balancing Lego robot (Android, Bluetooth)
+            * 2009 Shopping assistant - Silver Prize (Android, QRCode)
+            * 2005 Rhythm game (WinAPI, DirectX, MIDI), club website (PHP, MySQL)
+            * 2004 Photo Story image editor - Special Prize (MFC)
+          * Projects
+            * 2011 KNUSNS (PHP, MySQL, JavaScript), Kinect robot arm control (MFC, Kinect), AR timetable (Android)
