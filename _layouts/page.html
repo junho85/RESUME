@@ -1,0 +1,50 @@
+{%- comment -%}
+Layout for stand-alone sub-pages (talk write-ups and the like). Reuses the
+resume's head/footer and language switcher, but renders page content instead of
+the resume sections.
+{%- endcomment -%}
+{%- if page.lang == 'en' -%}
+  {%- assign t = site.data.en -%}
+{%- else -%}
+  {%- assign t = site -%}
+{%- endif -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'ko' }}">
+
+{%- include head.html -%}
+
+<style>
+  .subpage .back-link { margin-bottom: 18px; font-size: 14px; }
+  .subpage .back-link a { color: #999; text-decoration: none; }
+  .subpage .back-link a:hover { color: #444; text-decoration: underline; }
+  .subpage h1 { font-size: 26px; line-height: 1.35; margin: 0 0 6px; }
+  .subpage .subtitle { color: #999; font-size: 14px; margin: 0 0 26px; }
+  .subpage figure { margin: 0 0 10px; }
+  .subpage img { max-width: 100%; height: auto; border: 1px solid #eee; border-radius: 4px; }
+  .subpage figcaption { color: #999; font-size: 13px; margin-top: 8px; }
+  .subpage .meta li { margin-bottom: 4px; }
+</style>
+
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
+
+  {%- include lang-switch.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <div class="container subpage">
+        <p class="back-link">
+          <a href="{{ page.back_url | default: '/' | relative_url }}">{{ page.back_text | default: '← 이력서' }}</a>
+        </p>
+
+        <h1>{{ page.title }}</h1>
+        {%- if page.subtitle -%}<p class="subtitle">{{ page.subtitle }}</p>{%- endif -%}
+
+        {{ content }}
+      </div>
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+</body>
+
+</html>

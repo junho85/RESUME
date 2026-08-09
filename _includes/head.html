@@ -7,7 +7,7 @@ page gets an English title, and the language redirect runs before first paint.
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{{ t.name }} | {{ t.title }}</title>
+  <title>{{ t.name }} | {{ page.title | default: t.title }}</title>
   {%- seo title=false -%}
 
   <link rel="alternate" hreflang="ko" href="{{ '/' | absolute_url }}">

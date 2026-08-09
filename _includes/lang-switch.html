@@ -1,7 +1,12 @@
 {%- comment -%}
 Language switcher. A click records the choice so the auto-redirect in head.html
 never overrides a deliberate selection on a later visit.
+
+Sub-pages set ko_url/en_url in their front matter so switching language keeps
+the visitor on the same page instead of dropping them back on the resume.
 {%- endcomment -%}
+{%- assign ko_url = page.ko_url | default: '/' -%}
+{%- assign en_url = page.en_url | default: '/en/' -%}
 <style>
   .lang-switch {
     max-width: 830px;
@@ -22,10 +27,10 @@ never overrides a deliberate selection on a later visit.
   @media print { .lang-switch { display: none; } }
 </style>
 <nav class="lang-switch no-print" aria-label="Language">
-  <a href="{{ '/' | relative_url }}" data-lang="ko"
+  <a href="{{ ko_url | relative_url }}" data-lang="ko"
      {% if page.lang != 'en' %}aria-current="true"{% endif %}>한국어</a>
   <span aria-hidden="true">|</span>
-  <a href="{{ '/en/' | relative_url }}" data-lang="en"
+  <a href="{{ en_url | relative_url }}" data-lang="en"
      {% if page.lang == 'en' %}aria-current="true"{% endif %}>English</a>
 </nav>
 <script>

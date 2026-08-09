@@ -244,7 +244,11 @@ content:
           * 2012 Social Innovation Camp 36 - [app for children in special education](http://2012.sicamp36.org/bbs/board.php?bo_table=idea&wr_id=127&sfl=wr_11&stx=Y) - [Social Impact Award](http://2012.sicamp36.org/bbs/board.php?bo_table=news&wr_id=559)
       - layout: left
         title: Communities & Talks
+        # Internal links are not Liquid-processed here, so the baseurl (/RESUME) is spelled out.
         description: |
+          * 2024 [if(kakao) 2024](https://if.kakao.com/2024/session/time-table?tab=d3) crew panel talk - growing an AI career, the doubts that come with it, and applying the technology at work
+            * Junho Park (sky.j), Hanbin Ma (elphie.hb), Youngmin Oh (eli.nabro), June Kim (june.kim) / Event Stage, Team ground
+            * [Talk details](/RESUME/en/talks/ifkakao-2024/)
           * 2019~2022 Gardeners - a daily commit community. Participated in seasons 2~7
             * Built the attendance board - [season 7 board](http://garden7.junho85.pe.kr/)
             * 2019 [GDG DevFest Pangyo](https://festa.io/events/606) - [talk on building the Gardeners attendance checker](https://www.slideshare.net/junho85/dev-fest-pangyo-2019)
