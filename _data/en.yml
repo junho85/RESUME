@@ -237,6 +237,8 @@ content:
           * 2022 Kakao internal hackathon 24K - web screen sharing tool (Node, WebRTC)
           * 2019 Kakao internal hackathon 24K - 24K GOLD thumbnail creation tool (Javascript)
           * 2017 Social Innovation Camp 36 - Pick Art You - won both the Completion Award and the Social Innovation Award (PHP, CodeIgniter, MySQL)
+            * A web service for student creators to exhibit and share work that would otherwise be discarded
+            * [Article](https://www.newsworks.co.kr/news/articleView.html?idxno=116313)
           * 2014 Social Innovation Camp 36 - ThumMap - Completion Award
             * [Interview](http://changeon.org/%EC%9D%B8%ED%84%B0%EB%B7%B0-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0-%EB%A7%A4%ED%95%91-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC-%EB%A7%8C%EB%93%A0-%EC%82%AC%EB%9E%8C%EB%93%A4-%EA%B9%80%EC%A4%80%ED%98%B8/)
             * [Article](http://www.makehope.org/36%ec%8b%9c%ea%b0%84%ec%9d%84-%ed%95%98%ec%96%97%ea%b2%8c-%ed%83%9c%ec%9a%b4-%ea%b7%b8%eb%93%a4%ec%9d%98-%eb%82%ae%ea%b3%bc-%eb%b0%a4/)
@@ -246,8 +248,8 @@ content:
         title: Communities & Talks
         # Internal links are not Liquid-processed here, so the baseurl (/RESUME) is spelled out.
         description: |
-          * 2024 [if(kakao) 2024](https://if.kakao.com/2024/session/time-table?tab=d3) crew panel talk - growing an AI career, the doubts that come with it, and applying the technology at work
-            * Junho Park (sky.j), Hanbin Ma (elphie.hb), Youngmin Oh (eli.nabro), June Kim (june.kim) / Event Stage, Team ground
+          * 2024.10.24 [if(kakao)AI 2024](https://if.kakao.com/2024/session/time-table?tab=d3) crew panel talk, **panelist** - growing an AI career, the doubts that come with it, and applying the technology at work
+            * Event Stage, Team ground / 52-minute live outdoor session
             * [Talk details](/RESUME/en/talks/ifkakao-2024/)
           * 2019~2022 Gardeners - a daily commit community. Participated in seasons 2~7
             * Built the attendance board - [season 7 board](http://garden7.junho85.pe.kr/)
