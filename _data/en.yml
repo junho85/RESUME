@@ -234,6 +234,7 @@ content:
       - layout: left
         title: Hackathons
         description: |
+          * 2025 Kakao internal hackathon 10K - "Actually, this one's a bit cheaper", an agent that tracks AI API spend and recommends cheaper models (Python, Google A2A/ADK)
           * 2022 Kakao internal hackathon 24K - web screen sharing tool (Node, WebRTC)
           * 2019 Kakao internal hackathon 24K - 24K GOLD thumbnail creation tool (Javascript)
           * 2017 Social Innovation Camp 36 - Pick Art You - won both the Completion Award and the Social Innovation Award (PHP, CodeIgniter, MySQL)
