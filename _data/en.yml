@@ -13,7 +13,7 @@ references_title: References on request
 about_title: About Me
 about_content: | # this will include new lines to allow paragraphs
   I develop AI products on the <mark>Kanvas TF</mark> at Kakao.
-  Before that, from 2025 into early 2026, I designed and built the system behind AITOP100, a competition platform for AI proficiency, and over the same period architected the internal AI search system from scratch, cutting <mark>API cost by 94%</mark> and tokens by 50%. Earlier still, on the AI Native Company TF, I built a knowledge base with GraphRAG.
+  In 2025 I architected the internal AI search system from scratch, cutting <mark>API cost by 94%</mark> and tokens by 50%. From the second half of that year into early 2026 I designed and built the system behind AITOP100, a competition platform for AI proficiency, and earlier still, on the AI Native Company TF, I built a knowledge base with GraphRAG.
 
   Before the AI work I spent years on large-scale service backends. I developed and operated <mark>Daum Mail</mark> for **more than 8 years** — <mark>over 20 million MAU</mark> and hundreds of millions of emails a day — which took me through the infrastructure, monitoring and incidents of a service already two decades old.
   I helped build and launch the My Subscription service from scratch, and contributed to Tistory, OpenLink and OpenChat.
