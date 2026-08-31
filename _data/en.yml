@@ -144,6 +144,15 @@ content:
           * Java, Kotlin, Kafka, MySQL, Kubernetes
 
       - layout: left
+        title: My Subscription - Kakao's subscription service
+        link: https://my.kakao.com/
+        caption: 2020 - 2022
+        description: |
+          * Joined the build of a new service, launched it, and developed and operated it for the next two years
+          * Designed and built Web APIs in an MSA environment, with Kafka pub/sub moving data between services
+          * Java, SpringBoot, Kafka, MySQL, Redis, Kubernetes
+
+      - layout: left
         title: Kakao Mail
         caption: 2018 - 2020
         description: |

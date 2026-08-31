@@ -183,6 +183,15 @@ content:
           * Java, Kotlin, Kafka, MySQL, Kubernetes
 
       - layout: left
+        title: My 구독 - 카카오 구독 서비스
+        link: https://my.kakao.com/
+        caption: 2020 - 2022
+        description: |
+          * 신규 서비스 개발에 참여해 론칭하고, 이후 2년간 개발/운영
+          * MSA 환경에서 Web API 설계·개발, Kafka Pub/Sub 구조로 서비스 간 데이터 처리
+          * Java, SpringBoot, Kafka, MySQL, Redis, Kubernetes
+
+      - layout: left
         title: 카카오메일
         caption: 2018 - 2020
         description: |
