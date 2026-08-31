@@ -11,6 +11,7 @@ en_url: /en/talks/ifkakao-2024/
 description: >-
   Crew panel talk at if(kakao)AI 2024, Kakao's developer conference — growing an
   AI career and applying the technology at work. June Kim participated as a panelist.
+image: /images/og-en.png
 ---
 
 I took part as a **panelist** in the crew panel talk at **if(kakao)AI 2024**, Kakao's developer

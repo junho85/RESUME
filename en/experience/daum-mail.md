@@ -12,6 +12,7 @@ description: >-
   The full technical record behind eight years on Daum Mail — over 20 million MAU
   and hundreds of millions of daily transactions: the stack, the migrations, the
   legacy work and the incidents.
+image: /images/og-en.png
 ---
 
 I developed and operated **Daum Mail** for more than eight years — over 20 million MAU and

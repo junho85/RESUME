@@ -11,6 +11,17 @@ title: 백엔드 엔지니어 · AI 애플리케이션
 email: junho85@gmail.com
 website: https://junho85.github.io
 
+# 사이트 절대 주소. jekyll-seo-tag가 canonical/og:image 절대 URL을 만드는 데 쓴다.
+# GitHub Pages(legacy)는 http로 주입하므로 https로 명시한다.
+url: https://world.junho85.pe.kr
+
+# OG 이미지를 큰 카드로 노출
+twitter:
+  card: summary_large_image
+
+# Social share image. jekyll-seo-tag는 site.image를 읽지 않으므로
+# 각 페이지 front matter의 image로 지정한다 (index.md, en/index.md).
+
 # Dark Mode (true/false/never)
 darkmode: never
 
@@ -292,7 +303,8 @@ content:
             * [발표 상세](/RESUME/talks/ifkakao-2024/)
           * 2019~2022 정원사들 - 일일커밋 모임. 시즌 2~7 참여
             * 모임 출석부 개발 - [시즌7 출석부](http://garden7.junho85.pe.kr/)
-            * 2019 [GDG DevFest Pangyo](https://festa.io/events/606) [정원사들 출석체크 만들기 발표](https://www.slideshare.net/junho85/dev-fest-pangyo-2019)
+            * 2019.11.15 **GDG DevFest Pangyo** 발표 - "정원사들 출석체크 만들기" (B트랙, 판교 카카오 오피스)
+              * [발표 자료](https://www.slideshare.net/junho85/dev-fest-pangyo-2019) · [행사 스케치 영상](https://youtu.be/lGzLAe2XnJI?t=17) · [행사 후기·아젠다](https://hjiee.tistory.com/entry/%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A4-DevFest-Pangyo-2019-Fun-Thing-is-Good-%ED%9B%84%EA%B8%B0)
 
   - title: Education
     layout: list

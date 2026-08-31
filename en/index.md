@@ -10,4 +10,5 @@ title: Backend Engineer · AI Applications
 description: >-
   June Kim — backend engineer at Kakao since 2012. Built and operated Daum Mail
   at 20M+ MAU, now developing AI services and LLM applications.
+image: /images/og-en.png
 ---

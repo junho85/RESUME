@@ -11,6 +11,7 @@ en_url: /en/talks/ifkakao-2024/
 description: >-
   카카오 개발자 컨퍼런스 if(kakao)AI 2024 크루 패널톡 — AI 커리어 성장과 고민 및
   기술 적용 경험기. 김준호(june.kim) 패널 참여.
+image: /images/og-ko.png
 ---
 
 카카오 개발자 컨퍼런스 **if(kakao)AI 2024**의 크루 패널톡 세션에 **패널로 참여**했습니다.
