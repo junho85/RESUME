@@ -193,6 +193,7 @@ content:
 
       - layout: left
         title: 카카오메일
+        link: https://mail.kakao.com/
         caption: 2018 - 2020
         description: |
           * 외부 메일 발송 서버를 Sendmail -> Java 서버로 변경. TLS 메일 발송 기능 적용

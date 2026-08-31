@@ -154,6 +154,7 @@ content:
 
       - layout: left
         title: Kakao Mail
+        link: https://mail.kakao.com/
         caption: 2018 - 2020
         description: |
           * Replaced the outbound mail server from Sendmail with a Java server, adding TLS mail delivery
