@@ -12,11 +12,11 @@ references_title: References on request
 
 about_title: About Me
 about_content: | # this will include new lines to allow paragraphs
-  I have server-side development and operations experience on <mark>Daum Mail</mark>, a service with <mark>over 20 million MAU</mark> handling <mark>hundreds of millions of emails</mark> per day.
-  Running a <mark>20-year-old</mark> service at that scale for **more than 8 years** exposed me to a wide range of infrastructure, development and monitoring environments, and to handling many kinds of production incidents.
+  I build <mark>AI services</mark> at Kakao. I develop AI products on the Kanvas TF, and I designed and built the system behind AITOP100, a competition platform for AI proficiency.
+  For the internal AI search system I designed the architecture with no prior art to draw on, cutting <mark>API cost by 94%</mark> and tokens by 50%, and on the AI Native Company TF I built a knowledge base with GraphRAG.
 
+  Before that I worked on large-scale service backends. I developed and operated <mark>Daum Mail</mark> for **more than 8 years** — <mark>over 20 million MAU</mark> and hundreds of millions of emails a day — which took me through the infrastructure, monitoring and incidents of a service already two decades old.
   I helped build and launch the My Subscription service from scratch, and contributed to Tistory, OpenLink and OpenChat.
-  On the AI Native Company TF I worked on building a GraphRAG-based knowledge base, and I am currently developing AI services on the Kanvas TF.
 
   I document what I learn and share it with my colleagues.
   I automate repetitive work with scripts and build internal tools to reduce operational cost.

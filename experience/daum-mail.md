@@ -20,7 +20,7 @@ MAU 2천만 이상, 하루 수억 건의 메일 수·발신을 처리하는 **�
 ## 규모와 역할
 
 <ul class="meta">
-  <li><b>서비스</b> — 다음메일 (MAU 2천만 이상, 하루 수억 건 수·발신)</li>
+  <li><b>서비스</b> — <a href="https://mail.daum.net" target="_blank">다음메일</a> (MAU 2천만 이상, 하루 수억 건 수·발신)</li>
   <li><b>기간</b> — 2012.01 ~ 2020.04 (8년 4개월)</li>
   <li><b>운영</b> — 수백 대 서버의 배포·모니터링·로그수집</li>
   <li><b>주 사용 기술</b> — Java, C, Perl, MySQL, Linux</li>

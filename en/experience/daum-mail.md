@@ -23,7 +23,7 @@ resume.
 ## Scale and role
 
 <ul class="meta">
-  <li><b>Service</b> — Daum Mail (20M+ MAU, hundreds of millions of daily transactions)</li>
+  <li><b>Service</b> — <a href="https://mail.daum.net" target="_blank">Daum Mail</a> (20M+ MAU, hundreds of millions of daily transactions)</li>
   <li><b>Period</b> — Jan 2012 ~ Apr 2020 (8 years 4 months)</li>
   <li><b>Operations</b> — deployment, monitoring and log collection across hundreds of servers</li>
   <li><b>Primary stack</b> — Java, C, Perl, MySQL, Linux</li>
