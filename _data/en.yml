@@ -145,7 +145,7 @@ content:
 
       - layout: left
         title: My Subscription - Kakao's subscription service
-        link: https://my.kakao.com/
+        link: https://my.kakao.com
         caption: 2020 - 2022
         description: |
           * Joined the build of a new service, launched it, and developed and operated it for the next two years
@@ -154,7 +154,7 @@ content:
 
       - layout: left
         title: Kakao Mail
-        link: https://mail.kakao.com/
+        link: https://mail.kakao.com
         caption: 2018 - 2020
         description: |
           * Replaced the outbound mail server from Sendmail with a Java server, adding TLS mail delivery
