@@ -133,7 +133,10 @@ content:
         title: AITOP100 - AI Proficiency Competition Platform
         caption: 2025 - 2026
         description: |
-          * 2025 AI TOP 100 — contributed to the development and operation of the competition platform
+          * 2025 AI TOP 100 — owned the common modules: system design, infrastructure and the skeleton projects
+            * Analysed the load scenarios for thousands of concurrent users and designed the staged answer, including triple-IDC redundancy
+            * Two of us completed skeletons in Java, Python and JavaScript in a week, wired into internal storage and authentication
+            * Co-authored the write-up on Kakao's tech blog - [What AI TOP 100 left us](https://tech.kakao.com/posts/799) (Korean)
           * AITOP100 Challenge — built the submission and automated LLM grading site
             * Kafka-based asynchronous grading pipeline separating submission from grading, worker pool backpressure via semaphores, at-least-once idempotent re-grading
             * Multi-persona LLM grading on virtual threads with score aggregation, prompt injection guardrails
