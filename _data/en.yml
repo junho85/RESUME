@@ -60,7 +60,9 @@ content:
           * AI TOP 100 Builder TF - 2026.02 ~ 2026.04
             * Worked on the 2026 AITOP100 Campus and AITOP100 Challenge projects
           * AI Native Strategy - 2025.07 ~ 2026.01
-            * Built an internal AI search system and AI Buddy
+            * Built an internal AI search system - designed the architecture with no prior art to draw on. Cut tokens by 50% through context and prompt optimization, and API cost by 94% by switching models and removing unnecessary processing steps
+              * Launched internally in April and kept improving it until handover in August; crews have kept using it since
+            * Built AI Buddy and other internal tools
             * Worked on the 2025 AITOP100 and AITOP100 Challenge projects
             * Kadenbell at if(kakao)25 Krew Day - planned and built the mobile quiz platform for a CS/AI tech quiz session (two people)
               * Sign-up, entry, gameplay and rankings all ran self-serve on each participant's own phone; 60 concurrent players, no incidents
@@ -76,34 +78,11 @@ content:
             * Developed and operated the My Subscription service - Java, SpringBoot, Kafka, MySQL, Redis, Kubernetes
             * Built Web APIs in an MSA environment, Pub/Sub data processing with Kafka
           * Mail Development Part - 2012.01 ~ 2020.04
-            * Developed and operated Daum Mail, handling hundreds of millions of daily send/receive transactions for over 20 million MAU
-            * Deployment, monitoring and log collection across hundreds of servers
-            * Broad technical exposure from operating a service more than 20 years old
-              * Languages: Java 5 ~ Java 11, C, Perl, Python, Kotlin, Groovy, Scala
-              * Frameworks: Spring 1 ~ SpringBoot 2, Mojolicious
-              * APIs: Web API, REST API, CGI, Webservice
-              * Databases: MySQL, Oracle, PostgreSQL
-              * Build tools: Gradle, Maven, Make, Ant
-              * Deployment: rsync, webistrano, ansible
-              * Log collection: logstash, filebeat, fluentd, syslog
-              * Monitoring: scouter, sentry, kibana
-              * Messaging: Kafka, RabbitMQ
-              * User notifications: KakaoTalk, email, SMS
-              * DNS: MX, SPF, DKIM
-              * Migrations: Oracle to MySQL, 32bit to 64bit OS, IDC relocation, physical to virtual machines, Java 5 to Java 8
-              * Incidents: hardware/software failures, network outages, data loss, operator error, storage failures
-            * Mainly used Java, C, Perl, MySQL and Linux, along with Kotlin, Oracle, MongoDB, PostgreSQL, RabbitMQ and JavaScript as needed
+            * Developed and operated Daum Mail for more than 8 years - over 20 million MAU, hundreds of millions of daily send/receive transactions, with deployment, monitoring and log collection across hundreds of servers
+            * Modernised a 20-year-old codebase - removed over 4 million lines of unnecessary code, restructured, and upgraded Java, JUnit, the OS, httpd and Tomcat
+            * Large migrations - Oracle to MySQL, 32bit to 64bit OS, IDC relocation, physical to virtual machines
             * Email domain knowledge - mail protocols such as SMTP and LMTP, DNS records such as MX, SPF and DKIM
-            * Operated and maintained Premium Mail (paid email service)
-            * Migration to an MSA structure, OS upgrades, server relocation, database migration
-            * Legacy improvements - removed over 4 million lines of unnecessary code, restructuring, Java upgrades, JUnit upgrades, OS upgrades, 32bit to 64bit, Ant to Gradle, httpd 1.3 to 2.4, Tomcat upgrades
-            * Infrastructure work - IDC relocation, physical to virtual machine migration
-            * Internal tooling - mail send/receive history, log search, user activity lookup
-            * Security improvements - SMTP TLS 1.2 support
-            * Database migration - Oracle to MySQL
-          * Maintenance & improvements
-            * Infrastructure migration, IDC relocation
-            * Internal tool development
+            * [Eight years of detail →](/RESUME/en/experience/daum-mail/)
       - layout: left
         title: Qualcomm CDMA Technologies Korea
         link: https://www.qualcomm.com
