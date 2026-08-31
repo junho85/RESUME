@@ -53,7 +53,9 @@ additional_links:
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
-google_analytics: "UA-8585222-14"
+# Universal Analytics 는 2023-07 로 종료되어 수집되지 않는다 → GA4 gtag 로 이전
+# google_analytics: "UA-8585222-14"
+gtag: "G-2T4S1LS2H7"   # world.junho85.pe.kr (블로그·이력서) · GA4 속성 552185254
 
 # About Section
 about_title: About Me
