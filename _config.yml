@@ -297,6 +297,15 @@ content:
             * [기사](https://www.donga.com/news/It/article/all/20131008/58070426/1) - 동아일보 "IT로 사회문제 해결… 해커톤, 세상을 밝히다"
           * 2012 Social Innovation Camp 36 - [특수교육대상아동을 위한 앱](http://2012.sicamp36.org/bbs/board.php?bo_table=idea&wr_id=127&sfl=wr_11&stx=Y) - [소셜임팩트상](http://2012.sicamp36.org/bbs/board.php?bo_table=news&wr_id=559)
       - layout: left
+        title: 멘토링
+        description: | # this will include new lines to allow paragraphs
+          * 2026 **카카오테크 캠퍼스 4기** 멘토 (2026.06 ~ 11)
+            * 1단계 - 교육생 코드리뷰 멘토링, 기술멘토링 세션, AI 도구 활용 지원
+            * 2단계 - 팀 담당 멘토. 프로젝트 테크스펙 리뷰부터 개발·배포·발표까지 전 과정 멘토링
+          * 2026 **카카오 Tech for Impact 26-1** 카카오 멘토 (2026.04 ~ 06)
+            * 서울환경연합 '덜쓰는 사람들' 팀 멘토링 - Onloop, 교환학생 대상 캠퍼스 생활품 순환 플랫폼
+            * [성과발표](https://kakao-impact-foundation.github.io/campus_2026_spring/projects/14/)
+      - layout: left
         title: 모임&발표
         # 내부 링크는 Liquid이 적용되지 않으므로 baseurl(/RESUME)까지 직접 적는다.
         description: | # this will include new lines to allow paragraphs
