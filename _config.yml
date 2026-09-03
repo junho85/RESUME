@@ -327,12 +327,13 @@ content:
         description: |
           * 소프트웨어 개발 동아리 (하늘소) - 2005년 동아리 회장
             * 2011 LED 악보제작&연주기 - 최우수상 (C)
-            * 2010 경혈학 교육 어플 - 은상 (Android) / 확 땡기는 영어 - 은상 (Android, QRCode) / 밸런싱레고로봇 (Android, Bluetooth)
+            * 2010 경혈학 교육 어플 - 은상 (Android) / 확 땡기는 영어 - 은상 (Android, QRCode) [데모](https://www.youtube.com/watch?v=YJq_ZEHDt44) / 밸런싱레고로봇 (Android, Bluetooth)
             * 2009 장보기를 도와줘 - 은상 (Android, QRCode)
             * 2005 즐거운합주 리듬게임 (WinAPI, DirectX, MIDI), 동아리 홈페이지 (PHP, MySQL)
             * 2004 사진이야기 사진 편집 프로그램 - 특별상 (MFC)
           * 프로젝트
-            * 2011 KNUSNS (PHP, MySQL, JavaScript), 키넥트 로봇팔 제어 프로젝트 (MFC, Kinect), AR 시간표 (Android)
+            * 2011 키넥트 로봇팔 원격 제어 (MFC, Kinect) - Kinect 동작 인식으로 로봇팔을 원격 조작. [데모 영상](https://www.youtube.com/watch?v=CH5bMQ8KQBE)
+            * 2011 KNUSNS (PHP, MySQL, JavaScript), AR 시간표 (Android)
 
 
 # Footer

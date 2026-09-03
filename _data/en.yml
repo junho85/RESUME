@@ -275,9 +275,10 @@ content:
         description: |
           * Software development club (Haneulso) - club president in 2005
             * 2011 LED sheet music composer & player - Grand Prize (C)
-            * 2010 Acupuncture point learning app - Silver Prize (Android) / English vocabulary app - Silver Prize (Android, QRCode) / Balancing Lego robot (Android, Bluetooth)
+            * 2010 Acupuncture point learning app - Silver Prize (Android) / English vocabulary app - Silver Prize (Android, QRCode) [demo](https://www.youtube.com/watch?v=YJq_ZEHDt44) / Balancing Lego robot (Android, Bluetooth)
             * 2009 Shopping assistant - Silver Prize (Android, QRCode)
             * 2005 Rhythm game (WinAPI, DirectX, MIDI), club website (PHP, MySQL)
             * 2004 Photo Story image editor - Special Prize (MFC)
           * Projects
-            * 2011 KNUSNS (PHP, MySQL, JavaScript), Kinect robot arm control (MFC, Kinect), AR timetable (Android)
+            * 2011 Remote robot arm control with Kinect (MFC, Kinect) - drove a robot arm from Kinect gesture tracking. [Demo video](https://www.youtube.com/watch?v=CH5bMQ8KQBE)
+            * 2011 KNUSNS (PHP, MySQL, JavaScript), AR timetable (Android)
