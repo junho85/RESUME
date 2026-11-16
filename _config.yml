@@ -309,6 +309,9 @@ content:
         title: 모임&발표
         # 내부 링크는 Liquid이 적용되지 않으므로 baseurl(/RESUME)까지 직접 적는다.
         description: | # this will include new lines to allow paragraphs
+          * 2026.10.13 [if(kakao)26](https://if.kakao.com/2026/session?sessionId=128) Fireside Chat **패널** - AI를 계속 쓰기 위해, 우리가 정한 것들
+            * AI 시대의 개발자 트랙, B3F Growing hall / 카카오, 카카오페이손해보험, AWS 패널 3명과 모더레이터
+            * [발표 영상](https://www.youtube.com/watch?v=dfkKVbeBXew), [발표 상세](/RESUME/talks/ifkakao-2026/)
           * 2024.10.24 [if(kakao)AI 2024](https://if.kakao.com/2024/session/time-table?tab=d3) 크루 패널톡 **패널** - AI 커리어 성장과 고민 및 기술 적용 경험기
             * Event Stage, Team ground / 야외 라이브 52분
             * [발표 상세](/RESUME/talks/ifkakao-2024/)

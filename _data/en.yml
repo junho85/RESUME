@@ -257,6 +257,9 @@ content:
         title: Communities & Talks
         # Internal links are not Liquid-processed here, so the baseurl (/RESUME) is spelled out.
         description: |
+          * 2026.10.13 [if(kakao)26](https://if.kakao.com/2026/session?sessionId=128) fireside chat, **panelist** - what we decided so we can keep using AI
+            * "Developers in the AI era" track, B3F Growing hall / three panelists from Kakao, Kakao Pay Insurance, and AWS, plus a moderator
+            * [Session video](https://www.youtube.com/watch?v=dfkKVbeBXew) (Korean), [Talk details](/RESUME/en/talks/ifkakao-2026/)
           * 2024.10.24 [if(kakao)AI 2024](https://if.kakao.com/2024/session/time-table?tab=d3) crew panel talk, **panelist** - growing an AI career, the doubts that come with it, and applying the technology at work
             * Event Stage, Team ground / 52-minute live outdoor session
             * [Talk details](/RESUME/en/talks/ifkakao-2024/)
